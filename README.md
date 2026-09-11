@@ -370,23 +370,50 @@ It then computes:
 Example console output:
 
 ```text
-Transition matrix of the initial problem:
+Matrice de transition du probleme initial :
 
-[...]
+[0.0, 0.5882352941176471, 0.0, 0.4117647058823529, 0.0]
+[0.45454545454545453, 0.0, 0.5454545454545454, 0.0, 0.0]
+[0.0, 0.7058823529411765, 0.0, 0.0, 0.29411764705882354]
+[0.5, 0.0, 0.0, 0.0, 0.5]
+[0.0, 0.0, 0.4166666666666667, 0.5833333333333334, 0.0]
 
-Stationary vector of the base configuration:
+Matrice de transition (rupture): 
 
-[...]
+[0.0, 0.5, 0.0, 0.5]
+[0.5, 0.0, 0.5, 0.0]
+[0.0, 0.5, 0.0, 0.5]
+[0.5, 0.0, 0.5, 0.0]
 
-Number of iterations required:
+Matrice de transition (oscillation) : 
 
-[...]
+[0.0, 0.3333333333333333, 0.3333333333333333, 0.3333333333333333, 0.0]
+[0.5, 0.0, 0.5, 0.0, 0.0]
+[0.3333333333333333, 0.3333333333333333, 0.0, 0.3333333333333333, 0.0]
+[0.3333333333333333, 0.0, 0.3333333333333333, 0.0, 0.3333333333333333]
+[0.0, 0.0, 0.0, 1.0, 0.0]
+
+ vecteur propre de la situation de base par cauchy et le nombre d'iteration necessaire : 
+([0.20726829038664937, 0.26836317852938424, 0.2072710051058734, 0.17075233992731242, 0.14634518605078062], 60)
+
+vecteur propre de la situation de base par iteration et le nombre d'iteration : 
+([0.20754762520312542, 0.26795961234456867, 0.2075346782040477, 0.17063411789262967, 0.14632396635562894], 50)
+
+vecteur propre de la situation (rupture) par cauchy et le nombre d'iteration necessaire: 
+([0.25002245435524967, 0.166647164675717, 0.2500224543552491, 0.24995509128950136, 0.08335283532428285], 31)
+
+vecteur propre de la situation (oscillation) par cauchy et le nombre d'iteration necessaire: 
+([0.5, 0.0, 0.5, 0.0, 0.0], 1)
 
 ```
 
 The exact numerical values depend on the transition matrices defined in the program.
 
 ---
+
+** A view of the interface **
+<img width="501" height="279" alt="image" src="https://github.com/user-attachments/assets/d9ba4882-18b8-4731-b7a6-3e372678bc80" />
+
 
 ## Concepts Demonstrated
 
