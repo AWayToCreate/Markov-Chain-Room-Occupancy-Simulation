@@ -370,7 +370,7 @@ It then computes:
 Example console output:
 
 ```text
-Matrice de transition du probleme initial :
+Initial transition matrix :
 
 [0.0, 0.5882352941176471, 0.0, 0.4117647058823529, 0.0]
 [0.45454545454545453, 0.0, 0.5454545454545454, 0.0, 0.0]
@@ -378,14 +378,14 @@ Matrice de transition du probleme initial :
 [0.5, 0.0, 0.0, 0.0, 0.5]
 [0.0, 0.0, 0.4166666666666667, 0.5833333333333334, 0.0]
 
-Matrice de transition (rupture): 
+Transition matrix (break): 
 
 [0.0, 0.5, 0.0, 0.5]
 [0.5, 0.0, 0.5, 0.0]
 [0.0, 0.5, 0.0, 0.5]
 [0.5, 0.0, 0.5, 0.0]
 
-Matrice de transition (oscillation) : 
+Transition matrix (oscillation) : 
 
 [0.0, 0.3333333333333333, 0.3333333333333333, 0.3333333333333333, 0.0]
 [0.5, 0.0, 0.5, 0.0, 0.0]
@@ -393,16 +393,16 @@ Matrice de transition (oscillation) :
 [0.3333333333333333, 0.0, 0.3333333333333333, 0.0, 0.3333333333333333]
 [0.0, 0.0, 0.0, 1.0, 0.0]
 
- vecteur propre de la situation de base par cauchy et le nombre d'iteration necessaire : 
+Stationary vector of the base configuration by cauchy method and the number of iterations required :
 ([0.20726829038664937, 0.26836317852938424, 0.2072710051058734, 0.17075233992731242, 0.14634518605078062], 60)
 
-vecteur propre de la situation de base par iteration et le nombre d'iteration : 
+Stationary vector of the base configuration by iteration method and the number of iterations required : 
 ([0.20754762520312542, 0.26795961234456867, 0.2075346782040477, 0.17063411789262967, 0.14632396635562894], 50)
 
-vecteur propre de la situation (rupture) par cauchy et le nombre d'iteration necessaire: 
+Stationary vector of the break configuration by cauchy method and the number of iterations required : 
 ([0.25002245435524967, 0.166647164675717, 0.2500224543552491, 0.24995509128950136, 0.08335283532428285], 31)
 
-vecteur propre de la situation (oscillation) par cauchy et le nombre d'iteration necessaire: 
+Stationary vector of the oscillation configuration by cauchy method and the number of iterations required : 
 ([0.5, 0.0, 0.5, 0.0, 0.0], 1)
 
 ```
