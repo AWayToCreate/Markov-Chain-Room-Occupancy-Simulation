@@ -411,7 +411,7 @@ The exact numerical values depend on the transition matrices defined in the prog
 
 ---
 
-** A view of the interface **
+**A view of the interface**
 <img width="501" height="279" alt="image" src="https://github.com/user-attachments/assets/d9ba4882-18b8-4731-b7a6-3e372678bc80" />
 
 
