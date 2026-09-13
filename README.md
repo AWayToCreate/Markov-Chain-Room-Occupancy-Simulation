@@ -477,5 +477,4 @@ The graphical interface provides an intuitive way to observe how an initial prob
 ## License
 
 This project is intended for educational and academic purposes.
-
-You may modify and reuse the code for learning, experimentation, and further development.
+This repository is provided for learning, experimentation, and testing purposes. You are welcome to study and use the code to learn, but you may not copy it, claim it as your own, present it as your own work, or redistribute it without permission.
